@@ -4,9 +4,214 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
     <title>Honda CBR</title>
   </head>
   <body>
-    <h1>Honda CBR</h1>
+    <!-- Header Start -->
+    <header>
+      <div class="cbr-background">
+        <nav class="container">
+          <nav
+            class="
+              text-white
+              navbar navbar-expand-lg navbar-white
+              cbr-background
+            "
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link disabled"
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Disabled</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </nav>
+      </div>
+      <!-- Navigation Bar -->
+
+      <!-- Homepage Start -->
+      <div class="cbr-background py-5 text-white">
+        <div class="container d-flex">
+          <div class="">
+            <p>
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1>Honda CBR 300R</h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel ">
+                      Order Confirmation
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    Do you Wanted to Buy Honda CBR 300?
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Confirm
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="images/header-bike.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Fetured Bikes -->
+      <section>
+        <div>
+          <div class="text-center my-5">
+            <h1>Featured Bikes 2021</h1>
+            <span class="collection"> Best bike Collection </span>
+          </div>
+          <div class="container">
+            <div class="row row-cols-3 my-5 ms-5">
+              <div class="col bike-gray">
+                <img src="images/feature-bike.jpg" alt="" />
+              </div>
+              <div class="col bike">
+                <img src="images/feature-bike.jpg" alt="" />
+              </div>
+              <div class="col bike-gray">
+                <img src="images/feature-bike.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Happy Clients  -->
+      <article>
+        <h1 class="text-center">
+          Happy <span class="collection">Clients says</span>
+        </h1>
+      </article>
+    </header>
+
+    <!-- BootStrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.cbr-background {
+  background-color: #264653;
+}
+.bike img {
+  width: 288px;
+}
+.bike-gray img {
+  width: 288px;
+  filter: grayscale(100);
+}
+.collection {
+  color: #e76f51;
+}
