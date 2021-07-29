@@ -5,6 +5,12 @@ body {
 .cbr-background {
   background-color: #264653;
 }
+h1 {
+  font-size: 48px;
+}
+.honda-info {
+  color: #e0e0e0;
+}
 .cbr-info {
   padding-top: 50px;
 }
