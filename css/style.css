@@ -1,16 +1,64 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* Header Section */
 .cbr-background {
   background-color: #264653;
 }
+.cbr-info {
+  padding-top: 50px;
+}
+/* Button  */
+.new-btn {
+  width: 168px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #e76f51;
+}
+.new-btn2 {
+  width: 90px;
+  height: 44px;
+  padding: 10px;
+  color: white;
+  background-color: #e76f51;
+}
+/* Featured Bikes */
 .bike img {
   width: 288px;
+  height: 243px;
 }
 .bike-gray img {
   width: 288px;
+  height: 243px;
   filter: grayscale(100);
 }
+/* Client Review  */
 .collection {
   color: #e76f51;
+}
+.headling-bold {
+  font-weight: 600;
+}
+.clients img {
+  width: 149px;
+}
+.client-review {
+  font-weight: 400;
+  color: #6c6c6c;
+}
+.rating {
+  color: #e77c40;
+}
+.client-3 img {
+  height: 149px;
+  width: 149px;
+  border-radius: 50%;
+}
+/* Frequently Asked Question */
+
+.faq-ans {
+  margin-top: auto;
+  margin-bottom: auto;
 }
